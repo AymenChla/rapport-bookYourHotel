@@ -1,0 +1,39 @@
+Problématique:
+
+Dans le cadre de ce stage j'étais amener a travaillé sur un projet de recherche et de développement pour le compte de l'entreprise cliente du soft centre: ScreenDy.
+
+Présentation de l'entrepise cliente:
+
+ScreenDy est une entreprise marocaine créer en 2013 ayant pour but de procurer aux développeur une plateforme mobile basée sur le cloud qui permet de créer des applications 100% native, custom et mobiles optimisées, puis de les déployer sur Mobile, Tablet, TV connectée et autre nouvelle platefrome à l'avenir.
+
+ScreenDy a plus de 10 000 utilisateur à travers le monde et un chiffre d'affaire d'environs un million de dollars, l'entreprise souhaite dans 3 ans d'arriver a 1Million d'utilisateur et un chiffre d'affaire de 100Millions de dollars.
+
+C'est dans ce cadre que ScreenDy a travers l'organisme Soft centre recrute des jeunes stagiaire développeur ayant pour mission la création d'application mobile avec ScreenDy a fin d'enrichir l'app market de la plateforme ainsi(pour) offir une multitude d'application varié prête a l'emploi comme étant une base de départ pour donner encrore plus d'ésance au developpeur à réaliser leurs application dans un temps record.
+
+condition choix du sujet:
+Le choix du sujet de l'application était libre a condition que le sujet ainsi que la maquette photoshop chosis ne soient déjà prise par un autre stagiaire ou bien existe sur le market.
+
+sujet et objectif:
+Le sujet d'application choisi est la réservation de véhicules basées sur la géolocalisation.
+L'objective est de créer une application mobile ayant pour but de faciliter le processus de location de véhicules en permettant a l'utilisateur final la possibilité de consulter les offres les plus proches en se basant sur la géolocalisation ainsi de pouvoir réserver a travers cette meme application.
+
+Perimètre
+L'application est dédiée aux adultes ayant un permis de conduire souhaitant l'allocation de véhicule pour un usage au sein du Maroc.
+L'application est de type mobile.
+
+Description des besoins:
+besoins fonctionnels:
+.création des comptes
+.authentification
+.consulter les offres
+.consulter les détails d'un offre
+.trier les offres selons l'emplacement
+.reserver une voiture
+besoins non fonctionnels
+.l'interface: l'application doit fournir un ensemble d'interfaces qui facilitenet le processus de réservation.
+.la performance: L'application doit répondre au besoin des utilisateurs dans un temps raisonnable.
+Sécurité: L'application doit répondre aux exigences de sécurité.
+
+
+
+
