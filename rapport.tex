@@ -97,7 +97,8 @@
 
 		% Title
 		\rule{\linewidth}{0.5mm} \\[0.4cm]
-		{ \large \bfseries Application mobile pour la réservation de véhicule sous la plateforme ScreenDy \\[0.4cm] }
+		%{ \large \bfseries Application mobile pour la réservation de véhicule sous la plateforme ScreenDy \\[0.4cm] }
+		{ \large \bfseries Création d'une application mobile sous la plateforme ScreenDy \\[0.4cm] }
 		\rule{\linewidth}{0.5mm} \\[3cm]
 
 		% Author and supervisor
@@ -149,7 +150,7 @@
 	\newline
 	Je tiens particulièrement à remercier mon encadrante, Mme. Imane \bsc{BELLA}, pour son guide et ses conseils, ainsi que pour son encadrement durant toutes les phases de réalisation de ce projet.\\
 	\newline
-	Je tiens à exprimer les purs sentiments de reconnaissance et de sincères remerciements à ma famille, qui ma soutenus moralement durant ces deux mois de stage qui ont favorisé son aboutissement.
+	Je tiens à exprimer les purs sentiments de reconnaissance et de sincères remerciements à ma famille, qui ma soutenus moralement durant cette période de stage qui ont favorisé son aboutissement.
 	%===========fin remerciement============
 
 
@@ -159,9 +160,10 @@
 	%===========résumer ====================
 	\chapter*{Résumé}
 	\addcontentsline{toc}{chapter}{Résumé}
-	Le sujet de mon projet de stage, vise à développer une application mobile pour réservation de véhicules basée sur la géolocalisation pour le compte de l'entreprise client du SOFT CENTRE: Screendy. Le travail s’est déroulé en plusieurs phases : Une phase d’analyse et de conception et une phase de développement.\\
-Cependant, pour aboutir à cette fin, je vais tout d’abord effectuer une étude conceptuelle de l’application. Cette dernière me permettra, en effet, d’accéder facilement à la réalisation de l’application en organisant les idées et en structurant le processus de codage suivant des diagrammes UML. L’application a été développée en \guillemotleft ScreenDy JavaScript \guillemotright et par diverses technologies tout en se basant sur une étude conceptuelle.\\
+	Le sujet de mon projet de stage, vise à développer une application mobile pour la réservation de véhicules basée sur la géolocalisation pour le compte de l'entreprise client du SOFT CENTRE: Screendy. Le travail s’est déroulé en plusieurs phases : Une phase d’analyse et de conception et une phase de développement.\\
+Cependant, pour aboutir à cette fin, je vais tout d’abord effectuer une étude conceptuelle de l’application. Cette dernière me permettra, en effet, d’accéder facilement à la réalisation de l’application en organisant les idées et en structurant le processus de codage suivant des diagrammes UML. L’application a été développée avec du \guillemotleft ScreenDy JavaScript \guillemotright et par diverses technologies tout en se basant sur une étude conceptuelle.\\
 Le système de gestion de base de données choisi fut Firebase.\\
+Une deuxième partie du stage consiste à utiliser des APIs sur des applications ScreenDy.\\
 Mots clés : UML, ScreenDy JavaScript, Firebase.
 	%=======================================
 
@@ -170,14 +172,14 @@ Mots clés : UML, ScreenDy JavaScript, Firebase.
 	\chapter*{Abstract}
 	\addcontentsline{toc}{chapter}{Abstract}
 	The subject of my internship project, aims to develop a mobile application for booking vehicles based on geolocation for the client company of SOFT CENTRE: Screendy. The work took place in several phases: An analysis and design phase and a development phase.
-However, to achieve this end, I will first make a conceptual study of the application. The latter will allow me, in fact, easy access to the implementation of the application by organizing the ideas and structuring the coding process according to UML diagrams. The application has been developed in \guillemotleft ScreenDy JavaScript \guillemotright and by various technologies while being based on a conceptual study. \\
+However, to achieve this end, I will first make a conceptual study of the application. The latter will allow me, in fact, easy access to the implementation of the application by organizing the ideas and structuring the coding process according to UML diagrams. The application has been developed using \guillemotleft ScreenDy JavaScript \guillemotright and by various technologies while being based on a conceptual study. \\
 The database management system chosen was Firebase.\\
+A second part of the internship is to use APIs on ScreenDy applications.\\
 Keywords: UML, ScreenDy JavaScript, Firebase. 
 	%=======================================
 
 
 	%==========tables==========
-	\listoftables
 	\listoffigures
 	\tableofcontents
 	%=========================
@@ -248,11 +250,11 @@ la mise à disposition des infrastructures technologiques requises.
 	\subsection{L'entreprise cliente}
 		\subsection{Présentation de l'entreprise}
 ScreenDy est une entreprise marocaine créer en 2013 ayant pour but de procurer aux développeurs une plateforme mobile basée sur le cloud qui permet de créer des applications 100\% natives (Android et IOS), custom et mobiles optimisées, puis de les déployer sur Mobile, Tablet, TV connectée et autres nouvelles plateformes à l'avenir.\\
-ScreenDy a plus de 2 millions utilisateurs à travers le monde, 2345 applications et un chiffre d'affaires d'environ 1 million de dollars, l'entreprise souhaite dans 3 ans d'arriver à 1 million d'utilisateurs et un chiffre d'affaires de 100 millions de dollars.\\
-C'est dans ce cadre que ScreenDy à travers l'organisme SOFT CENTRE recrute des jeunes stagiaires développeurs ayant pour mission la création d'applications mobiles avec ScreenDy à fin d'enrichir le \guillemotleft marketplace \guillemotright de la plateforme ainsi offrir une multitude d'applications variées prêtes à l'emploi comme étant une base de départ pour donner encore plus d'aisance aux développeurs à réaliser leurs applications dans un temps-record.
+ScreenDy a plus de 10 000 utilisateurs à travers le monde, 2345 applications et un chiffre d'affaires d'environ 1 million de dollars, l'entreprise souhaite dans 3 ans d'arriver à 1 million d'utilisateurs et un chiffre d'affaires de 100 millions de dollars.\\
+C'est dans ce cadre que ScreenDy à travers l'organisme SOFT CENTRE recrute des jeunes stagiaires développeurs ayant pour mission la création d'applications mobiles avec ScreenDy à fin d'enrichir le \guillemotleft marketplace \guillemotright de la plateforme à fin d'offrir une multitude d'applications variées prêtes à l'emploi comme étant une base de départ pour donner encore plus d'aisance aux développeurs à réaliser leurs applications dans un temps-record.
 		\subsection{Prix populaires}
 Parmis les prix les plus populaires que ScreenDy a gagnée ces dernières années:\\
-
+		\newline
 		\begin{minipage}{0.5\textwidth}
 
 		\begin{flushleft}
@@ -326,41 +328,42 @@ Conference 2015}
 		%========présentation du projet===============
 		\section{Problèmatique}
 L’évolution de la technologie des télécommunications a donné naissance à plusieurs services,
-notamment le service de la géolocalisation. Ce dernier est souvent utilisée dans les applications
-mobiles et qui peut être intégrée dans la stratégie de marketing mobile en offrant diverses possibilités
+notamment le service de la géolocalisation. Ce dernier est souvent utilisé dans les applications
+mobiles et qui peut être intégré dans la stratégie de marketing mobile en offrant diverses possibilités
 de localisation et le positionnement dans diffèrent domaines et surtout celui de la gestion des
 réservations des locations des véhicules. Cette facilité a encouragé plusieurs entreprises surtout celle
 qui produit des applications basées sur la géolocalisation à exprimer un besoin pour une gestion
 automatique de leurs différents modules.\\
-Après une consultation sur la liste des applications réaliser avec ScreenDy et celle en cours de développement il s'est avéré que ce type d'application n'était pas encore proposé d'oû l'interet que j'ai eu envert ce type application.\\
+Après une consultation de la liste des applications réalisées avec ScreenDy et celle en cours de développement il s'est avéré que ce type d'application n'était pas encore proposé d'où l'intérêt que j'ai eu envers ce type application.\\
 C’est donc dans ce cadre que s’inscrit mon projet de stage de fin de 1\up{ère} ann\'ee visant à établir
 une bonne analyse et conception pour la mise en place d’une première version de ce système.
 
 		
 		%=================objectif==================
 		\section{Objectif}
-	mon projet de stage consiste donc à développer une application qui permettra donc de donner
+Mon projet de stage consiste donc à développer une application qui permettra de donner
 une flexibilité à la gestion des réservations des véhicules. L’objectif est de stocker les informations
-liées aux réservations dans une base de donnée et de permettre aux utilisateurs de retrouver facilement les données dont il peut avoir besoin pour effectuer les réservations.\\
-L’objectif sera également d’avoir une inerface UI conviviable originale et différente par rapport aux autres applications développées avec ScreenDy et d’utiliser au mieux les outils limité dont dispose la plateforme pour mettre au point ce projet.\\
-Mon projet a comme principal objectif l’automatisation du processus de réservations des
+liées aux réservations dans une base de données et de permettre aux utilisateurs de retrouver facilement les données dont ils auront besoin pour effectuer les réservations.\\
+L’objectif sera également d’avoir une interface UI conviviale originale et différente par rapport aux autres applications développées avec ScreenDy et d’utiliser au mieux les outils limités dont dispose la plateforme pour mettre au point ce projet.\\
+Mon projet a donc comme principal objectif l’automatisation du processus de réservations des
 véhicules. Il porte sur l’analyse, la conception, le développement d’une application mobile utilisant
-un service web pour la récupération des données nécessaire pour offrir aux clients un service de
-réservations avec une meilleure performance, rapidité et disponibilité.\\
+un service web pour la récupération des données nécessaires pour offrir aux clients un service de
+réservation avec une meilleure performance, rapidité et disponibilité.\\
 
 		%=================Parties prenantes=================
 		\section{Parties prenantes}
 			\begin{itemize}
-				\item Les clients (Adulte ayant un permis de conduire) puisque l'application est déstinée principalement à eux.
+				\item Les clients: Adulte ayant un permis de conduire.
 				\item Les directeurs de location, quant à eux, peuvent gérer les voitures et les offres de location relatives à leurs agences.
-				\item L'administrateur est le profil aux plus grands privilèges. C'est un super utilisateur ayant le droit d'effectuer toutes sortes d'opérations telles que la gestion des dirigeants de location, des clients, des voitures, des réservations, des commissions et des promotions.
+				\item L'administrateur est le profil aux plus grands privilèges. C'est un super utilisateur ayant le droit d'effectuer toutes sortes d'opérations, notamment la gestion des utilisateurs.
+
 			\end{itemize}
 		
 
 
 		%=============== Description de l'application=============
 		\section{Déscription de l'application}
-L’application gère la réservation de véhicule dans les agences de location de l’entreprise RentCar. Il permet aux clients de réserver des véhicules en consultant la liste des offres les plus proches de l’emplacement du client. Il pourra ainsi consulter les détails des offres ainsi que l’emplacement des agences concernant un offre.
+L’application gère la réservation de véhicule dans les agences de location. Elle permet aux clients de réserver des véhicules en consultant la liste des offres les plus proches de leurs emplacements. Ils pourront ainsi consulter les détails des offres ainsi que l’emplacement des agences.
 L’application permet au directeur de location de gérer les offres de leurs agences. Elle gère aussi la partie administration en gérant les comptes des utilisateurs. 
 Également, l’application permet l’identification de chaque personne, dépendamment de son profil, lui donne accès à des options différentes.
 
@@ -372,14 +375,14 @@ L’application devra regrouper toutes les fonctionnalités nécessaires pour :\
 				\begin{itemize}
 					\item \textbf{La création des comptes:} Le client pourra créer un compte sur l'application 
 					\item \textbf{L'authentification:} L’utilisateur devra pouvoir s’authentifier à travers un email et un mot de passe. Le système vérifie l’authentification.
-					\item \textbf{La consultation des offres disponibles:} Le client pourra visualisé les offres de réservations disponible
+					\item \textbf{La consultation des offres disponibles:} Le client pourra visualisé les offres de réservations disponible.
 					\item \textbf{Consulter les détails d'un offre:} Le client pourra consulté les détails d'un offre à savoir la marque, les options du véhicule, condition d'utilisation...
-					\item \textbf{trier les offres selons l'emplacement:} Les offres s'affiche selon la position du client par défaut si l'option de localisation est activé.
-					\item \textbf{reserver une voiture:} Le client pourra réserver a travers cette application tout en donnant un délai de 24 heures avant l'annulation.
+					\item \textbf{trier les offres selons l'emplacement:} Les offres s'affichent selon la position du client par défaut si l'option de localisation est activée.
+					\item \textbf{reserver une voiture:} Le client pourra réserver à travers cette application tout en donnant un délai de 24 heures avant l'annulation.
 					\item \textbf{Annuler la réservation:} A tout moment le client peut annuler la réservation.
-					\item \textbf{Consulter les réservation:} Le client pourra consulter ses réservations ainsi que le temps réstant avant l'annulation.
-					\item \textbf{Gestion des offres:} Le directeur de location poura ajouter, modifier, consulter et supprimer les offres de son agence.
-					\item \textbf{Gestion des réservation:} Le directeur de location poura ajouter, modifier, consulter et supprimer les réservations des clients de son agence.
+					\item \textbf{Consulter les réservations:} Le client pourra consulter ses réservations ainsi que le temps restant avant l'annulation.
+					\item \textbf{Gestion des offres:} Le directeur de location pourra ajouter, modifier, consulter et supprimer les offres de son agence.
+					\item \textbf{Gestion des réservations:} Le directeur de location poura ajouter, modifier, consulter et supprimer les réservations des clients de son agence.
 					 
 				\end{itemize}
 
@@ -398,7 +401,7 @@ ou la modification de celles existantes facilement.
 
 		%============conclusion========================
 		\section{Conclusion}
-Dans ce chapitre j'ai présenté le cadre général de mon projet en déterminant l’objectif principal du projet. J'ai dévoilé les exigences des besoins fonctionnels. Dans le chapitre suivant je vais reproduire les différents besoins cités précédemment sous forme de diagrammes UML.
+Dans ce chapitre j'ai présenté le cadre général de mon projet en déterminant l’objectif principal du projet. J'ai dévoilé les exigences des besoins fonctionnels et non fonctionnels. Dans le chapitre suivant je vais reproduire les différents besoins cités précédemment sous forme de diagrammes UML.
 %==================================fin chapitre 2====================================
 
 
@@ -417,34 +420,56 @@ Dans ce chapitre j'ai présenté le cadre général de mon projet en déterminan
 		
 		%============introduction===================
 		\section{Introduction}
-Dans cette section, je vais reproduire les différents besoins sous la forme de diagrammes UML.
+Dans cette section, je vais reproduire les différents besoins sous la forme de diagrammes UML.\\
 UML est un langage de modélisation graphique pour fournir une méthode normalisée pour visualiser la conception d'un système. Il est couramment utilisé en développement logiciel et en conception orientée objet.
 		
 		%===========vue fonctionnelle=============
 		\section{Vue fonctionnelle du système}
 			\subsection{Acteurs}
 			\begin{itemize}
-				\item \textbf{Client:} adulte ayant un permis de conduire qui consulte les offres et réserve. eux.
+				\item \textbf{Client:} adulte ayant un permis de conduire qui consulte les offres et réserve.
 				\item \textbf{Directeur de location:} Utilisateur chargé de gérer les offres de son agence.
 				\item \textbf{Administrateur} Personne déléguée pour gérer l’information des différents utilisateurs. Il veillera à la gestion des utilisateurs.
 			\end{itemize}
 
-		
-
+			
 			\subsection{Diagramme de cas d'utilisation}
 Ce diagramme permet d’identifier les possibilités d’interaction entre le système et les acteurs. Il représente toutes les fonctionnalités que le système doit fournir.
 
 
-
-		%ici use case
+			\begin{figure}[!hbtp]
+				\centering
+				\includegraphics[scale=0.6]{./graphics/usecase.png}
+				\caption{Diagramme de cas d'utilisation}
+			\end{figure}
+			\newpage
+		
 		\section{Prototype}
 Le mock-up, ou dit autrement la maquette fonctionnelle, montre la partie visuelle du projet. Il s’agit d’une représentation statique du contenu, de la structure et des fonctionnalités de l’application.\\
-Enfin, le prototype est une maquette interactive. En plus de la partie visuelle, il montre le fonctionnement de l’application. Le prototype est extrêmement utile pour tester la convivialité du projet.
-	
-		%ici maquette
+Enfin, le prototype est une maquette interactive. En plus de la partie visuelle, il montre le fonctionnement de l’application. Le prototype est extrêmement utile pour tester la convivialité du projet.\\
+
+			\begin{figure}
+			\includegraphics[width=4cm]{./graphics/mk2.png}\hfill
+			\includegraphics[width=4cm]{./graphics/mk1.png}
+			\caption{Maquette création de compte et authentification}
+			\end{figure}
+			\begin{figure}
+			\includegraphics[width=4cm]{./graphics/mk4.png}\hfill
+			\includegraphics[width=4cm]{./graphics/mk5.png}
+			\caption{Maquette offres et détails offre}
+			\end{figure}
+			\begin{figure}
+			\includegraphics[width=4cm]{./graphics/mk3.png}\hfill
+			\includegraphics[width=4cm]{./graphics/mk6.png}
+			\caption{Maquette réservations et détails réservation}
+			\end{figure}
+			
 			
 
 		%================vue dynamique====================
+		\newpage
+		~
+		\newpage
 		\section{Vue Dynamique du système}
 			\subsection{Diagramme de séquence:} 
 Ces diagrammes sont la représentation graphique des interactions entre les acteurs et le
@@ -453,29 +478,42 @@ scénario d'un diagramme de cas d'utilisation et ils ont pour but de décrire co
 actions entre les acteurs ou objets.
 			
 			\subsection{scénario de réservation de véhicule}
-		
-		%ici sénario
-			
+			\vspace{1cm}
+			\begin{figure}[!hbtp]
+				\centering
+				\includegraphics[scale=0.8]{./graphics/sequence.png}
+				\caption{Diagramme de séquence}
+			\end{figure}
+
+			\newpage
 			
 		
 
-		%==========mcd===========================
+		%===================mcd===========================
 		\section{Modélisation conceptuelle et logique des données}
 			\subsection{Modèle Conceptuel des Données}
 Le modèle conceptuel des données décrit de façon formelle les données utilisées par le système d’information. Les principales composantes de ce modèle sont des entités et des relations qui peuvent exister entre eux. Il repose sur une représentation graphique (relationnelle) qui facilite considérablement sa compréhension.
+			\vspace{2cm}
+			\begin{figure}[!hbtp]
+				\centering
+				\includegraphics[scale=0.8]{./graphics/mcd.png}
+				\caption{Modèle conceptuelle de données}
+			\end{figure}
+			\newpage
 			
-		%ici le mcd
-
 			\subsection{Modèle Logique des Données}
 Le modèle relationnel représente la base de données comme un ensemble de tables, sans préjuger de la façon dont les informations sont stockées dans la machine. Les tables constituent donc la structure logique du modèle relationnel ou il est possible de relier ces structures à des tables au niveau logique. Les données sont organisées sous forme de relations.
-
-		%ici mld
-
+			\begin{figure}[!hbtp]
+				\centering
+				\includegraphics[scale=0.8]{./graphics/mld.png}
+				\caption{Modèle logique de données}
+			\end{figure}
+			
 		
 		%===========conclusion===========
 		\section{Conclusion}
-Dans ce chapitre, j'ai présenté l'étude conceptuelle du système. La vue fonctionnelle a été illustrée par un diagramme de cas d’utilisation, la maquette pour définir les zones et les composants de l’interface de l'application, la vue dynamique par un diagramme de séquence qui ma permis d'avoir une vue générale sur le déroulement des cas d'utilisation et leurs exécutions. Enfin, la modélisation conceptuelle et logique des données qui m'a permit de définir la structure du système et de dégager les différentes tables le composant.\\
-Dans le chapitre suivant, nous détaillons quelques aspects de la réalisation.	
+Dans ce chapitre, j'ai présenté l'étude conceptuelle du système. La vue fonctionnelle a été illustrée par un diagramme de cas d’utilisation, la maquette pour définir les zones et les composants de l’interface de l'application, la vue dynamique par un diagramme de séquence qui ma permis d'avoir une vue générale sur le déroulement des cas d'utilisation et leurs exécutions. Enfin, la modélisation conceptuelle et logique des données qui m'a permis de définir la structure du système et de dégager les différentes tables le composant.\\
+Dans le chapitre suivant, je détaille quelques aspects de la réalisation.	
 	
 		
 
@@ -504,31 +542,32 @@ Il s’agit dans ce chapitre d’identifier les différentes caractéristiques d
 		
 		%=========Plateforme ScreenDy===========
 		\section{Plateforme ScreenDy}
-Il s'agit d'un environnement de développement visuel qui facilite et accélère la création d'une interface utilisateur mobile, la définition de services de flux, le mappage des services vers l'interface utilisateur et même le test de l'application. Cependant, vous n'êtes pas limité par le constructeur visuel. Vous pouvez utiliser nos éditeurs de code ou n'importe quel code JavaScript, HTML5 ou CSS personnalisé pour créer toutes les fonctionnalités que vous voulez!\\
+Il s'agit d'un environnement de développement visuel qui facilite et accélère la création d'une interface utilisateur mobile, la définition de services de flux, le mappage des services vers l'interface utilisateur et même le test de l'application. Cependant, on n'est pas limité par le constructeur visuel. On peut utiliser nos éditeurs de code ou n'importe quel code JavaScript, HTML5 ou CSS personnalisé pour créer toutes les fonctionnalités que nous voulons.\\
 L'application finale est NATIVE et peut être facilement installé sur l'appareil.\\
 Cépendant la plateforme est toujours en version Beta, donc instable et peut-on résulter plusieurs bugs.
 
 		\subsection{Création des vues sur ScreenDy}
-Sur la plateforme ScreenDy, la création de template est devenue beaucoup plus facile. Il vous offre tous les composants dont vous avez besoin. Vous pouvez obtenir un beau modèle adapté aux différents appareils.\\
+Sur la plateforme ScreenDy, la création de template est devenue beaucoup plus facile. Elle nous offre tous les composants dont nous avons besoin. On peut obtenir un beau modèle adapté aux différents appareils.\\
 Une template est un moyen de séparer le contenu de la forme (comment il est présenté). Cela dit, il agit comme une structure dans laquelle seuls certains éléments sont modifiables (contenu et style).
 		
 		
 		\begin{figure}[!hbtp]
 			\centering
 			\includegraphics[scale=0.3]{./graphics/vue_screendy.png}
+			\caption{Création de vues sur ScreenDy}
 		\end{figure}
 		\newpage
 
 	
 			\subsubsection{\'Etapes générales}
 Le schéma suivant présente le cycle de vie de la création de template sur la plate-forme ScreenDy.
-Dans les trois premières étapes, nous utilisons un logiciel de désign et outil de prototypage.
+Dans les trois premières étapes, nous utilisons un logiciel de désign et outil de prototypage.\\
 		
 			\begin{itemize}
 				\item \textbf{Prototype:} Avant de commencer à créer notre design, il est préférable de dessiner un prototype en utilisant un logiciel de prototypage afin d'avoir une idée générale de notre désign (Balzamiq, Fluid Ui, etc.).
 				\item \textbf{Désign:} Dans cette étape, nous définissons à quoi ressemble notre template, en utilisant n'importe quel logiciel de désign (Photoshop,Sketch,etc.).
-				\item \textbf{Découpage:} Séparez chaque composant de notre désign et enregistrez-le.
-				\item \textbf{Importation des médias:} Téléchargez tous les éléments dans la librairie médias.
+				\item \textbf{Découpage:} On sépare chaque composant de notre désign et on l'enregistre.
+				\item \textbf{Importation des médias:} On télécharge tous les éléments dans la librairie médias.
 				\item \textbf{Style:} Après avoir le bon format de notre template, on ajoute du style CSS.
 				\item \textbf{Test:} On lance le projet sur l'émulateur pour voir les résultats de notre travail dans différentes appreils.
 				\item \textbf{Exportation:} On exporte la template pour l'utiliser dans notre application.
@@ -539,9 +578,9 @@ Dans les trois premières étapes, nous utilisons un logiciel de désign et outi
 				\centering
 				\includegraphics[scale=0.5]{./graphics/general-steps.png}
 				\caption{\'Etapes génarales}
-			\end{figure}
+			\end{figure}	
 
-
+			\newpage
 
 
 		\subsection{Ajout des fonctions Javascript}
@@ -549,6 +588,7 @@ Une fois on crée vos vues sur la plateforme ScreenDy, On doit ajouter le traite
 			\begin{figure}[!hbtp]
 			\centering
 			\includegraphics[scale=0.3]{./graphics/js_screendy.png}
+			\caption{Traitement JavaScript sur ScreenDy}
 			\end{figure}
 
 			\subsubsection{ScreenDy JavaScript}
@@ -564,12 +604,13 @@ La syntaxe Javascript, la déclaration de fonction (fonction), la déclaration d
 
 		\subsection{Test de l'application}
 			\subsubsection{Sur smartphone}
-Pour ce faire on doit télécharger depuis le Play Store l'application "ScreenDy previewer" et l'installer sur notre device, une fois fait,  on ouvre l'application et on accéde au contenu avec le même compte que nous avons créé sur la plateforme. Il suffit par la suite de cliquer sur le nom de l'application affiché et elle sera exécutée.
+Pour ce faire on doit télécharger depuis le Play Store l'application "ScreenDy previewer" et l'installer sur notre device, une fois fait,  on ouvre l'application et on accède au contenu avec le même compte que nous avons créé sur la plateforme. Il suffit par la suite de cliquer sur le nom de l'application affiché et elle sera exécutée.
 			\subsubsection{Sur l'émulateur}
-L'émulateur de la plateforme nous donne la possibilité de voir les résultats de l'application sur les deux Systèmes d'exploitation (Android et IOS) et sur différents taille d'écrans.
+L'émulateur de la plateforme nous donne la possibilité de voir les résultats de l'application sur les deux Systèmes d'exploitation (Android et IOS) et sur différentes tailles d'écrans.
 			\begin{figure}[!hbtp]
 			\centering
 			\includegraphics[scale=0.3]{./graphics/emul.png}
+			\caption{Test sur l'émulateur de ScreenDy}
 			\end{figure}
 
 		%==============fin section screendy==============
@@ -610,7 +651,7 @@ Ce web service support le format XML et le format JSON.
 		\begin{wrapfigure} {r}{3cm}
 		\includegraphics[scale=0.3]{./graphics/json.png}
 		\end{wrapfigure}
-SON est un format de données textuelles dérivé de la notation des objets du
+JSON est un format de données textuelles dérivé de la notation des objets du
 langage JavaScript. Il permet de représenter de l’information structurée comme le permet XML par
 exemple. Créé par Douglas Crockford entre 2002 et 2005.\\
 Un document JSON a pour fonction de représenter de l'information accompagnée d'étiquettes
@@ -643,58 +684,133 @@ Au cours de ce chapitre, J'ai présenté l’environnement de développement et 
 	\chapter{Réalisation}
 
 	\section{Introduction}
-La phase qui suit une conception bien détaillée est éventuellement l’implémentation. Le module additionnel sera implémenté en tant qu’une application mobile répondant à plusieurs exigences. En effet, le projet devrait être développer sous la plateforme ScreenDy et utiliser la base de données existante Firebase.
+La phase qui suit une conception bien détaillée est éventuellement l’implémentation. Le module additionnel sera implémenté en tant qu’une application mobile répondant à plusieurs exigences. En effet, le projet devrait être développé sous la plateforme ScreenDy en utilisant la base de données existante Firebase.
 
-
-	\section{Interfaces}
-Les figures ci-dessous représentent quelques captures d’écran de pages de mon application. Les pages qui suivent l’authentification contiennent tous un menu, qui va nous permettre de naviguer dans les différentes pages du l'application.\\
+	\section{Application mobile pour la réservation de véhicules}
+	\subsection{Interfaces}
+Les figures ci-dessous représentent quelques captures d’écran de pages de mon application. Les pages qui suivent l’authentification contiennent tous un menu, qui va nous permettre de naviguer dans les différentes pages de l'application.\\
 Dans cette partie je vais décrire la réalisation sous forme d’un scénario de réservation de véhicule.
-
-	\subsection{Page d'accueil}
+	\newpage
+	\subsubsection{Page d'accueil}
 Cette page donne une idée générale sur le fonctionnement de l'application.
-	%img
+	\vspace{2cm}
+	\begin{figure}[!hbtp]
+		\centering
+		\includegraphics[scale=0.2]{./graphics/Accueil.png}
+		\caption{Page d'accueil}
+		\end{figure}
+		\newpage
 
-	\subsection{Menu}
+	\subsubsection{Menu de navigation}
 Le menu permet de naviguer dans les différentes pages de l'application.
-	%img
+	\vspace{2cm}
+	\begin{figure}[!hbtp]
+		\centering
+		\includegraphics[scale=0.2]{./graphics/Menu.png}
+		\caption{Menu de navigation}
+		\end{figure}
+		\newpage
 
-	\subsection{Création d'un nouveau compte}
-Cette interface permet au client de créer son propore compte en saisisant ses informations.
-	%img
-	
-	\subsection{Authentification}
+	\subsubsection{Création d'un nouveau compte}
+Cette interface permet au client de créer son propre compte en saisissant ses informations.
+	\vspace{2cm}
+	\begin{figure}[!hbtp]
+		\centering
+		\includegraphics[scale=0.2]{./graphics/Signup.png}
+		\caption{Création d'un nouveau compte}
+		\end{figure}
+		\newpage
+
+	\subsubsection{Authentification}
 Afin d’avoir accès à l’ensemble des fonctionnalités offertes par l’application, l’utilisateur doit
 saisir son email et son mot de passe valides.
-	%img
+	\vspace{2cm}
+	\begin{figure}[!hbtp]
+		\centering
+		\includegraphics[scale=0.2]{./graphics/Signin.png}
+		\caption{Authentification}
+		\end{figure}
+		\newpage
 	
-	\subsection{Recherche des offres}
-Cette interface permet au client de chercher les offres disponibles durant la période choisis.
-	%img
+	\subsubsection{Recherche des offres}
+Cette interface permet au client de chercher les offres disponibles durant la période choisie.
+	\vspace{2cm}
+	\begin{figure}[!hbtp]
+		\centering
+		\includegraphics[scale=0.2]{./graphics/Date.png}
+		\caption{Recherche des offres}
+		\end{figure}
+		\newpage
 
-	\subsection{Consultation des offres}
-Cette interface affiche la liste des offres disponible pour la réservation durant la période choisis.
-	%img
+	\subsubsection{Consultation des offres}
+Cette interface affiche la liste des offres disponible pour la réservation durant la période choisie.
+	\vspace{2cm}
+	\begin{figure}[!hbtp]
+		\centering
+		\includegraphics[scale=0.2]{./graphics/Offres.png}
+		\caption{Offres}
+		\end{figure}
+		\newpage		
 	
-	\subsection{Consultation des détails}
-Cette interface affiche les détails de l'offre choisis elle permet aussi de le réserver.
-	%img
+	\subsubsection{Consultation des détails}
+Cette interface affiche les détails de l'offre choisie elle permet aussi de le réserver.
+	\vspace{2cm}
+	\begin{figure}[!hbtp]
+		\centering
+		\includegraphics[scale=0.2]{./graphics/DetailsOffre.png}
+		\caption{Détails offre}
+		\end{figure}
+		\newpage
 
-	\subsection{Consultation des condition de réservations}
-	%img
+	\subsubsection{Consultation des condition de réservations}
+	\vspace{2cm}
+	\begin{figure}[!hbtp]
+		\centering
+		\includegraphics[scale=0.2]{./graphics/More.png}
+		\caption{Conditions}
+		\end{figure}
+		\newpage
 	
-	\subsection{Consulter ses réservations}
+	\subsubsection{Consulter ses réservations}
 Cette interface affiche la liste des réservations du client
-	%img
+	\vspace{2cm}
+	\begin{figure}[!hbtp]
+		\centering
+		\includegraphics[scale=0.2]{./graphics/Reservations.png}
+		\caption{Réservations}
+		\end{figure}
+		\newpage
 
-	\subsection{Consulter détails réservations}
-Cette interface affiche les détails de la réservation à savoir le code, la date et le lieu de la réservation.ainsi que la durée restante avant l'annulation au cas oû la réservation n'est pas encore confirmer.
-	%img | %img
+	\subsubsection{Consulter détails réservations}
+Cette interface affiche les détails de la réservation à savoir le code, la date et le lieu de la réservation ainsi que la durée restante avant l'annulation au cas où la réservation n'est pas encore confirmé.
+	\vspace{2cm}
+	\begin{figure}[!hbtp]
+		\centering
+		\includegraphics[scale=0.2]{./graphics/DetailsReservation.png}
+		\caption{Détails réservation}
+		\end{figure}
+	
+	 \section{APIs}
+La 2\up{ème} phase du stage consiste à utiliser des APIs sur des applications ScreenDy.\\
+Pour ce faire il faut faire une recherche dans la documentation officielle des fournisseurs mentionnés par l'encadrante. Une fois intéressé à un fournisseur il faut choisir les API (web service Rest) à traité.
+Les APIs choisis sont:\\
+	\begin{itemize}
+		\item Recherche de place de Facebook
+		\item Extraction de profile d'Instagram
+	\end{itemize}
+
 	
 
+	\begin{figure}
+	\includegraphics[width=5cm]{./graphics/fb.png}\hfill
+	\includegraphics[width=5cm]{./graphics/instagram.png}
+	\caption{APIs}
+	\end{figure}
+				
 	\section{Conclusion}
-Au cours de ce chapitre, nous avons présenté la dernière étape du développement, qui est
-celle de la réalisation et de la mise en œuvre du projet. Nous avons présenté le résultat de la fusion
-de tous les éléments de spécifications fonctionnelles et techniques précédemment traités.
+Au cours de ce chapitre, j'ai présenté la dernière étape du développement, qui est
+celle de la réalisation et de la mise en œuvre du projet. J'ai présenté le résultat de la fusion
+de tous les éléments de spécifications fonctionnelles et techniques précédemment traitées.
 %====================================fin réalisation=================================
 
 
@@ -704,26 +820,28 @@ de tous les éléments de spécifications fonctionnelles et techniques précéde
 
 		\chapter*{Conclusion générale} 
 	\addcontentsline{toc}{chapter}{Conclusion}
-	Ce stage d’été de fin de 1\up{ère} année avait pour but majeur la solidification et la mise en
+	Ce stage de fin de 1\up{ère} année avait pour but majeur la solidification et la mise en
 pratique de l’ensemble des compétences théoriques et techniques acquises durant l’année scolaire. Il
-consistait à travaillé sur une application mobile pour automatiser le processus de réservation des véhicules pour donner au client un service confortable.\\
+consistait à travailler sur une application mobile pour automatiser le processus de réservation des véhicules pour donner au client un service confortable.\\
 Malgré la limite du temps réservé à la réalisation de ce projet qui demeure pour moi un projet
-de taille et complexité assez importantes et les diffucultées que j'ai rencontré lors de la phase de réalisation que ca soit les bugs lancer par la plateforme que je re rappel qu'elle est toujours en version Beta ainsi que l'inéxistance de communité pour le partage de solution j'ai pu concrétiser les objectifs tracés initialement,dans les délais estimés. Au début, j'ai commencé exprimer les exigences et les besoins de l’organisme, puis après la validation du cahier des charges j'ai passés aux
+de taille et complexité assez importantes et les difficultées que j'ai rencontrés lors de la phase de réalisation que ça soit les bugs de la plateforme qu'est toujours en version Beta ainsi que l'inexistance de communauté pour le partage de solution, j'ai pu concrétiser les objectifs tracés initialement, dans les délais estimés. Au début, j'ai commencé à exprimer les exigences et les besoins de l’organisme, puis après la validation du cahier des charges j'ai passé aux
 spécifications techniques et fonctionnelles. Après validation de ces spécifications avec le chef de
 projet, je me suis mis à développer l'application.\\
-Effectivement l'application n'est pas parfaite et beaucoup de choses peuvent être ajoutés ou bien modifiés.\\
-En termes de ce projet, j'ai eu l’opportunité d’acquérir de nouveaux concepts, dont les principaux sont le développement d'application sous la plateforme ScreenDy et de travailler avec un nouveau type de SGBD qu'est le NoSQL, ce qui est vraiment intéressant pour les prochains
+Effectivement l'application n'est pas parfaite et beaucoup de choses peuvent être ajoutées ou bien modifiées.\\
+En matière de ce projet, j'ai eu l’opportunité d’acquérir de nouveaux concepts, dont les principaux sont le développement d'applications sous la plateforme ScreenDy et de travailler avec un nouveau type de SGBD qu'est le NoSQL, ce qui est vraiment intéressant pour les prochains
 projets.\\
 	
 	\chapter*{Bibliographie}
-	\addcontentsline{toc}{chapter}{Bibliographie}
+	\addcontentsline{toc}{chapter}{Webographie}
 	\bibliographystyle{plain}
 	\vspace{2cm}
 	  \begin{itemize}
-	 		\item Cours JAVA par le professeur Tim Buchalka.
-			\item https://openclassrooms.com/
-			\item https://developpers.com/
-			\item https://stackoverflow.com/
-			\item https://github.com/
+	 		\item http://docs.screendy.com/
+			\item https://firebase.google.com/docs/reference/rest/database/
+			\item https://fr.wikipedia.org/wiki/Classification\_ACRISS
+			\item https://developers.facebook.com/docs/places/web/search/
+			\item https://www.instagram.com/developer/endpoints/media/
+			\item https://fr.wikipedia.org/wiki/Representational\_state\_transfer
+			\item https://fr.wikipedia.org/wiki/JavaScript\_Object\_Notation
 		\end{itemize}
 	\end{document}

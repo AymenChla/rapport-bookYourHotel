@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.11.23)  26 NOV 2017 07:21
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.11.23)  27 NOV 2017 21:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1224,12 +1224,12 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 148--154
+Underfull \hbox (badness 10000) in paragraph at lines 149--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--154
+Underfull \hbox (badness 10000) in paragraph at lines 149--155
 
  []
 
@@ -1239,23 +1239,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--154
 
 ] [4
 
-] (./rapport.lot)
-\tf@lot=\write6
-\openout6 = `rapport.lot'.
+] (./rapport.lof)
+\tf@lof=\write6
+\openout6 = `rapport.lof'.
 
  [5
 
-] (./rapport.lof)
-\tf@lof=\write7
-\openout7 = `rapport.lof'.
-
- [6
-
-] (./rapport.toc [7
+] (./rapport.toc [6
 
 ])
-\tf@toc=\write8
-\openout8 = `rapport.toc'.
+\tf@toc=\write7
+\openout7 = `rapport.toc'.
 
 
 
@@ -1264,59 +1258,59 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 188--192
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 190--194
 
  []
 
-[9
+[8
 
 ]
 Chapitre 1.
 File: ./graphics/logo_softcentre.png Graphic file (type QTm)
 <use  "./graphics/logo_softcentre.png" >
-Overfull \hbox (45.78484pt too wide) in paragraph at lines 204--205
+Overfull \hbox (45.78484pt too wide) in paragraph at lines 206--207
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
-[10
+[9
 
-] [11]
+] [10]
 File: ./graphics/logo_screendy.png Graphic file (type QTm)
  <use  "./graphics/logo_screendy.png" >
-Overfull \hbox (15.01648pt too wide) in paragraph at lines 246--247
+Overfull \hbox (15.01648pt too wide) in paragraph at lines 248--249
  [][] 
  []
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 24
-8.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 25
+0.
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 24
-9.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
-
- []
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 25
+1.
 
 File: graphics/10ww.png Graphic file (type QTm)
 <use  "graphics/10ww.png" >
 File: graphics/mit.png Graphic file (type QTm)
  <use  "graphics/mit.png" >
-Overfull \hbox (20.2328pt too wide) in paragraph at lines 256--284
-[]$[]$ $[]$ 
+Underfull \hbox (badness 10000) in paragraph at lines 256--286
+
+ []
+
+
+Overfull \hbox (2.60799pt too wide) in paragraph at lines 256--286
+[]$ $[]$ 
  []
 
 File: graphics/startupconferance.png Graphic file (type QTm)
@@ -1324,118 +1318,185 @@ File: graphics/startupconferance.png Graphic file (type QTm)
 File: graphics/pionnersFestival.png Graphic file (type QTm)
 
 <use  "graphics/pionnersFestival.png" >
-Overfull \hbox (20.2328pt too wide) in paragraph at lines 285--314
+Overfull \hbox (20.2328pt too wide) in paragraph at lines 287--316
 []$[]$ $[]$ 
  []
 
-[12] [13]
+[11] [12]
 Chapitre 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--350
+Underfull \hbox (badness 10000) in paragraph at lines 344--352
 
  []
 
-[14
+[13
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 371--372
+Underfull \hbox (badness 10000) in paragraph at lines 374--375
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 390--394
 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 387--391
+Chapitre 3.
+File: ./graphics/usecase.png Graphic file (type QTm)
+<use  "./graphics/usecase.png" > [16
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 448--450
 
  []
 
-[16]
-Chapitre 3.
-[17
+File: ./graphics/mk2.png Graphic file (type QTm)
+<use  "./graphics/mk2.png" >
+File: ./graphics/mk1.png Graphic file (type QTm)
+ <use  "./graphics/mk1.png" >
+File: ./graphics/mk4.png Graphic file (type QTm)
 
-]
-Overfull \hbox (1.47754pt too wide) in paragraph at lines 463--463
+<use  "./graphics/mk4.png" >
+File: ./graphics/mk5.png Graphic file (type QTm)
+ <use  "./graphics/mk5.png" >
+File: ./graphics/mk3.png Graphic file (type QTm)
+
+<use  "./graphics/mk3.png" >
+File: ./graphics/mk6.png Graphic file (type QTm)
+ <use  "./graphics/mk6.png" > [17] [18] [19]
+File: ./graphics/sequence.png Graphic file (type QTm)
+
+<use  "./graphics/sequence.png" > [20]
+Overfull \hbox (1.47754pt too wide) in paragraph at lines 493--493
 []\EU1/lmr/bx/n/17.28 Modélisation conceptuelle et logique des don-
  []
 
-[18] [19]
+File: ./graphics/mcd.png Graphic file (type QTm)
+<use  "./graphics/mcd.png" > [21]
+File: ./graphics/mld.png Graphic file (type QTm)
+ <use  "./graphics/mld.png" > [22]
 Chapitre 4.
 File: ./graphics/vue_screendy.png Graphic file (type QTm)
-<use  "./graphics/vue_screendy.png" > [20
+<use  "./graphics/vue_screendy.png" > [23
 
 ]
-File: ./graphics/general-steps.png Graphic file (type QTm)
+Underfull \hbox (badness 10000) in paragraph at lines 563--565
 
-<use  "./graphics/general-steps.png" > [21]
+ []
+
+File: ./graphics/general-steps.png Graphic file (type QTm)
+<use  "./graphics/general-steps.png" > [24]
 File: ./graphics/js_screendy.png Graphic file (type QTm)
 
 <use  "./graphics/js_screendy.png" >
 File: ./graphics/js.png Graphic file (type QTm)
  <use  "./graphics/js.png" >
-Overfull \hbox (40.11017pt too wide) in paragraph at lines 556--557
+Overfull \hbox (40.11017pt too wide) in paragraph at lines 596--597
  [][] 
  []
 
-[22]
+[25]
 File: ./graphics/emul.png Graphic file (type QTm)
- <use  "./graphics/emul.png" > [23]
+ <use  "./graphics/emul.png" > [26]
 File: ./graphics/firebase.png Graphic file (type QTm)
  <use  "./graphics/firebase.png" >
-Overfull \hbox (35.08653pt too wide) in paragraph at lines 582--583
+Overfull \hbox (35.08653pt too wide) in paragraph at lines 623--624
  [][] 
  []
 
 File: ./graphics/logo_restapi.png Graphic file (type QTm)
 <use  "./graphics/logo_restapi.png" >
-Overfull \hbox (35.07455pt too wide) in paragraph at lines 591--592
+Overfull \hbox (35.07455pt too wide) in paragraph at lines 632--633
  [][] 
  []
 
 File: ./graphics/restapi.png Graphic file (type QTm)
 <use  "./graphics/restapi.png" >
-Overfull \hbox (4.32585pt too wide) in paragraph at lines 601--602
+Overfull \hbox (4.32585pt too wide) in paragraph at lines 642--643
  [][] 
  []
 
-[24]
+[27]
 File: ./graphics/json.png Graphic file (type QTm)
  <use  "./graphics/json.png" >
-Overfull \hbox (30.29077pt too wide) in paragraph at lines 611--612
+Overfull \hbox (30.29077pt too wide) in paragraph at lines 652--653
  [][] 
  []
 
 File: ./graphics/gitgithub.jpg Graphic file (type QTm)
 <use  "./graphics/gitgithub.jpg" >
-Overfull \hbox (49.89671pt too wide) in paragraph at lines 621--622
+Overfull \hbox (49.89671pt too wide) in paragraph at lines 662--663
  [][] 
  []
 
-[25] [26]
+[28] [29]
 Chapitre 5.
-[27
+[30
 
-] [28]
-Underfull \hbox (badness 10000) in paragraph at lines 707--717
+]
+File: ./graphics/Accueil.png Graphic file (type QTm)
+ <use  "./graphics/Accueil.png" > [31]
+File: ./graphics/Menu.png Graphic file (type QTm)
+ <use  "./graphics/Menu.png" >
+[32]
+File: ./graphics/Signup.png Graphic file (type QTm)
+ <use  "./graphics/Signup.png" > [33]
+File: ./graphics/Signin.png Graphic file (type QTm)
+ <use  "./graphics/Signin.png" >
+[34]
+File: ./graphics/Date.png Graphic file (type QTm)
+ <use  "./graphics/Date.png" > [35]
+File: ./graphics/Offres.png Graphic file (type QTm)
+ <use  "./graphics/Offres.png" >
+[36]
+File: ./graphics/DetailsOffre.png Graphic file (type QTm)
+ <use  "./graphics/DetailsOffre.png" > [37]
+File: ./graphics/More.png Graphic file (type QTm)
+ <use  "./graphics/More.png" >
+[38]
+File: ./graphics/Reservations.png Graphic file (type QTm)
+ <use  "./graphics/Reservations.png" > [39]
+File: ./graphics/DetailsReservation.png Graphic file (type QTm)
+
+<use  "./graphics/DetailsReservation.png" >
+Overfull \hbox (2.16525pt too wide) in paragraph at lines 794--797
+[]\EU1/lmr/m/n/12 La 2[] phase du stage consiste à utiliser des APIs sur des ap
+plications ScreenDy. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 794--797
 
  []
 
-[29
+File: ./graphics/fb.png Graphic file (type QTm)
+<use  "./graphics/fb.png" >
+File: ./graphics/instagram.png Graphic file (type QTm)
+ <use  "./graphics/instagram.png" > [40] [41]
+Underfull \hbox (badness 10000) in paragraph at lines 823--833
 
-] [30
+ []
+
+[42
+
+] [43
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 729.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 729.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 847.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 847.
  (./rapport.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 729.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 729.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 729.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 847.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 847.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 847.
  ) 
 Here is how much of TeX's memory you used:
- 34123 strings out of 493638
- 637779 string characters out of 6146795
- 648596 words of memory out of 5000000
- 37076 multiletter control sequences out of 15000+600000
+ 34164 strings out of 493638
+ 638427 string characters out of 6146795
+ 646897 words of memory out of 5000000
+ 37098 multiletter control sequences out of 15000+600000
  17482 words of font info for 53 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  55i,11n,54p,10347b,595s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on rapport.pdf (31 pages).
+Output written on rapport.pdf (44 pages).
