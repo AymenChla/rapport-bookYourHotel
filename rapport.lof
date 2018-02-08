@@ -1,29 +1,34 @@
 \select@language {french}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagramme de cas d'utilisation}}{13}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Scénarion de réservation d'hôtel}}{14}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Scénarion de paiement en ligne}}{15}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Diagramme de classe}}{16}{figure.2.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagramme de cas d'utilisation}}{17}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Maquette création de compte et authentification}}{18}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Maquette offres et détails offre}}{18}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Maquette réservations et détails réservation}}{19}{figure.3.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Diagramme de séquence}}{20}{figure.3.5}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Modèle conceptuelle de données}}{21}{figure.3.6}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Modèle logique de données}}{22}{figure.3.7}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Maquette authentification}}{18}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Maquette création de compte}}{19}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Maquette paramètre du compte}}{19}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Maquette informations personnelles}}{20}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Maquette mes réservations}}{21}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Maquette recherche d'hôtel}}{21}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Maquette hôtels disponibles}}{22}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Maquette hébérgements}}{23}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Maquette réservation}}{24}{figure.3.9}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Maquette paiement}}{24}{figure.3.10}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Maquette ajouter un hôtel}}{25}{figure.3.11}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Maquette liste des hôtels}}{25}{figure.3.12}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Maquette liste des clients}}{26}{figure.3.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Création de vues sur ScreenDy}}{24}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces \'Etapes génarales}}{25}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Traitement JavaScript sur ScreenDy}}{25}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Test sur l'émulateur de ScreenDy}}{26}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Schéma REST API}}{28}{figure.4.5}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Architecture technique}}{27}{figure.4.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Page d'accueil}}{31}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Menu de navigation}}{32}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Création d'un nouveau compte}}{33}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Authentification}}{34}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Recherche des offres}}{35}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Offres}}{36}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Détails offre}}{37}{figure.5.7}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Conditions}}{38}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Réservations}}{39}{figure.5.9}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Détails réservation}}{40}{figure.5.10}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces APIs}}{41}{figure.5.11}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Page d'accueil}}{32}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Menu de navigation}}{33}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Création d'un nouveau compte}}{34}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Authentification}}{35}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Recherche des offres}}{36}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Offres}}{37}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Détails offre}}{38}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Conditions}}{39}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Réservations}}{40}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Détails réservation}}{41}{figure.5.10}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.11.23)  27 NOV 2017 21:29
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.2.2)  8 FEB 2018 06:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1208,9 +1208,9 @@ Package caption Info: End \AtBeginDocument code.
 
 File: graphics/ensias.png Graphic file (type QTm)
  <use  "graphics/ensias.png" >
-File: graphics/logo_softcentre.png Graphic file (type QTm)
+File: graphics/univ.png Graphic file (type QTm)
 
-<use  "graphics/logo_softcentre.png" >
+<use  "graphics/univ.png" >
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
@@ -1224,12 +1224,17 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 149--155
+Underfull \hbox (badness 10000) in paragraph at lines 154--160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--155
+Underfull \hbox (badness 10000) in paragraph at lines 154--160
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--160
 
  []
 
@@ -1237,7 +1242,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--155
 
 ] [3
 
-] [4
+]
+Underfull \hbox (badness 10000) in paragraph at lines 178--183
+
+ []
+
+[4
 
 ] (./rapport.lof)
 \tf@lof=\write6
@@ -1259,7 +1269,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 190--194
+Overfull \hbox (0.27435pt too wide) in paragraph at lines 193--201
+\EU1/lmr/m/n/12 C’est dans cette vision que s’inscrit notre projet du premier s
+emestre de la deuxième
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--201
 
  []
 
@@ -1267,214 +1283,224 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--194
 
 ]
 Chapitre 1.
-File: ./graphics/logo_softcentre.png Graphic file (type QTm)
-<use  "./graphics/logo_softcentre.png" >
-Overfull \hbox (45.78484pt too wide) in paragraph at lines 206--207
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 212--213
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
-
- []
-
 [9
 
-] [10]
-File: ./graphics/logo_screendy.png Graphic file (type QTm)
- <use  "./graphics/logo_screendy.png" >
-Overfull \hbox (15.01648pt too wide) in paragraph at lines 248--249
+]
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--258
+
+ []
+
+[10] [11]
+Chapitre 2.
+[12
+
+]
+File: ./graphics/diag_usecase.png Graphic file (type QTm)
+ <use  "./graphics/diag_usecase.png" >
+Overfull \hbox (34.94624pt too wide) in paragraph at lines 306--307
  [][] 
  []
 
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 25
-0.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 25
-1.
-
-File: graphics/10ww.png Graphic file (type QTm)
-<use  "graphics/10ww.png" >
-File: graphics/mit.png Graphic file (type QTm)
- <use  "graphics/mit.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 256--286
-
- []
-
-
-Overfull \hbox (2.60799pt too wide) in paragraph at lines 256--286
-[]$ $[]$ 
- []
-
-File: graphics/startupconferance.png Graphic file (type QTm)
-<use  "graphics/startupconferance.png" >
-File: graphics/pionnersFestival.png Graphic file (type QTm)
-
-<use  "graphics/pionnersFestival.png" >
-Overfull \hbox (20.2328pt too wide) in paragraph at lines 287--316
-[]$[]$ $[]$ 
- []
-
-[11] [12]
-Chapitre 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 344--352
-
- []
-
-[13
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
-
+[13]
+File: ./graphics/scenario_reservation.jpg Graphic file (type QTm)
+ <use  "./graphics/scenario_reservation.jpg" >
+Overfull \hbox (84.57976pt too wide) in paragraph at lines 327--328
+ [][] 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 390--394
-
+File: ./graphics/paiement.jpg Graphic file (type QTm)
+ <use  "./graphics/paiement.jpg" >
+Overfull \hbox (18.08298pt too wide) in paragraph at lines 337--338
+ [][] 
  []
 
 [15]
+File: ./graphics/diag_classe.png Graphic file (type QTm)
+ <use  "./graphics/diag_classe.png" > [16] [17]
 Chapitre 3.
-File: ./graphics/usecase.png Graphic file (type QTm)
-<use  "./graphics/usecase.png" > [16
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--378
+
+ []
+
+File: ./graphics/1.png Graphic file (type QTm)
+<use  "./graphics/1.png" > [18
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 448--450
+File: ./graphics/2.png Graphic file (type QTm)
+ <use  "./graphics/2.png" >
+File: ./graphics/6.png Graphic file (type QTm)
 
- []
+<use  "./graphics/6.png" > [19]
+File: ./graphics/7.png Graphic file (type QTm)
+ <use  "./graphics/7.png" > [20]
+File: ./graphics/4.png Graphic file (type QTm)
 
-File: ./graphics/mk2.png Graphic file (type QTm)
-<use  "./graphics/mk2.png" >
-File: ./graphics/mk1.png Graphic file (type QTm)
- <use  "./graphics/mk1.png" >
-File: ./graphics/mk4.png Graphic file (type QTm)
+<use  "./graphics/4.png" >
+File: ./graphics/3.png Graphic file (type QTm)
+ <use  "./graphics/3.png" > [21]
+File: ./graphics/5.png Graphic file (type QTm)
 
-<use  "./graphics/mk4.png" >
-File: ./graphics/mk5.png Graphic file (type QTm)
- <use  "./graphics/mk5.png" >
-File: ./graphics/mk3.png Graphic file (type QTm)
+<use  "./graphics/5.png" > [22]
+File: ./graphics/9.png Graphic file (type QTm)
+ <use  "./graphics/9.png" > [23]
+File: ./graphics/10.png Graphic file (type QTm)
 
-<use  "./graphics/mk3.png" >
-File: ./graphics/mk6.png Graphic file (type QTm)
- <use  "./graphics/mk6.png" > [17] [18] [19]
-File: ./graphics/sequence.png Graphic file (type QTm)
+<use  "./graphics/10.png" >
+File: ./graphics/11.png Graphic file (type QTm)
+ <use  "./graphics/11.png" > [24]
+File: ./graphics/12.png Graphic file (type QTm)
 
-<use  "./graphics/sequence.png" > [20]
-Overfull \hbox (1.47754pt too wide) in paragraph at lines 493--493
-[]\EU1/lmr/bx/n/17.28 Modélisation conceptuelle et logique des don-
- []
+<use  "./graphics/12.png" >
+File: ./graphics/8.png Graphic file (type QTm)
+ <use  "./graphics/8.png" >
+File: ./graphics/13.png Graphic file (type QTm)
 
-File: ./graphics/mcd.png Graphic file (type QTm)
-<use  "./graphics/mcd.png" > [21]
-File: ./graphics/mld.png Graphic file (type QTm)
- <use  "./graphics/mld.png" > [22]
+<use  "./graphics/13.png" > [25] [26]
 Chapitre 4.
-File: ./graphics/vue_screendy.png Graphic file (type QTm)
-<use  "./graphics/vue_screendy.png" > [23
+File: ./graphics/architecture_tech.png Graphic file (type QTm)
+<use  "./graphics/architecture_tech.png" > [27
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 563--565
+File: ./graphics/spring.png Graphic file (type QTm)
+
+<use  "./graphics/spring.png" >
+Underfull \hbox (badness 1460) in paragraph at lines 524--527
+[][]\EU1/lmr/m/n/12 En informatique, Spring est un framework libre pour
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 524--527
 
  []
 
-File: ./graphics/general-steps.png Graphic file (type QTm)
-<use  "./graphics/general-steps.png" > [24]
-File: ./graphics/js_screendy.png Graphic file (type QTm)
+File: ./graphics/hibernate.jpg Graphic file (type QTm)
+<use  "./graphics/hibernate.jpg" >
+Underfull \hbox (badness 10000) in paragraph at lines 539--541
 
-<use  "./graphics/js_screendy.png" >
-File: ./graphics/js.png Graphic file (type QTm)
- <use  "./graphics/js.png" >
-Overfull \hbox (40.11017pt too wide) in paragraph at lines 596--597
+ []
+
+[28]
+File: ./graphics/bootstrap.png Graphic file (type QTm)
+ <use  "./graphics/bootstrap.png" >
+Underfull \hbox (badness 6300) in paragraph at lines 546--547
+\EU1/lmr/m/n/12 ce qui permet de disposer d’une apparence uniforme
+ []
+
+
+Underfull \hbox (badness 6876) in paragraph at lines 546--547
+\EU1/lmr/m/n/12 pour les textes, tableaux et les éléments de formu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 546--547
+
+ []
+
+File: ./graphics/maven.png Graphic file (type QTm)
+<use  "./graphics/maven.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 554--555
+
+ []
+
+File: ./graphics/mysql.png Graphic file (type QTm)
+<use  "./graphics/mysql.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 560--561
+
+ []
+
+File: ./graphics/trello.png Graphic file (type QTm)
+<use  "./graphics/trello.png" >
+Overfull \hbox (42.07272pt too wide) in paragraph at lines 564--565
  [][] 
  []
 
-[25]
-File: ./graphics/emul.png Graphic file (type QTm)
- <use  "./graphics/emul.png" > [26]
-File: ./graphics/firebase.png Graphic file (type QTm)
- <use  "./graphics/firebase.png" >
-Overfull \hbox (35.08653pt too wide) in paragraph at lines 623--624
+
+Underfull \hbox (badness 10000) in paragraph at lines 566--567
+
+ []
+
+[29]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 569.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 569.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 569.
+File: ./graphics/latex.png Graphic file (type QTm)
+ <use  "./graphics/latex.png" >
+Overfull \hbox (54.8432pt too wide) in paragraph at lines 571--572
  [][] 
  []
 
-File: ./graphics/logo_restapi.png Graphic file (type QTm)
-<use  "./graphics/logo_restapi.png" >
-Overfull \hbox (35.07455pt too wide) in paragraph at lines 632--633
- [][] 
+
+Underfull \hbox (badness 1603) in paragraph at lines 573--577
+\EU1/lmr/m/n/12 semble de macro-commandes basées sur le langage TEX
  []
 
-File: ./graphics/restapi.png Graphic file (type QTm)
-<use  "./graphics/restapi.png" >
-Overfull \hbox (4.32585pt too wide) in paragraph at lines 642--643
- [][] 
+
+Underfull \hbox (badness 4108) in paragraph at lines 573--577
+\EU1/lmr/m/n/12 – developpé par Donald Knuth.Il permettant de créer
  []
 
-[27]
-File: ./graphics/json.png Graphic file (type QTm)
- <use  "./graphics/json.png" >
-Overfull \hbox (30.29077pt too wide) in paragraph at lines 652--653
- [][] 
+
+Underfull \hbox (badness 1831) in paragraph at lines 573--577
+\EU1/lmr/m/n/12 des documents écrits de grande qualité : principalement
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 573--577
+
  []
 
 File: ./graphics/gitgithub.jpg Graphic file (type QTm)
 <use  "./graphics/gitgithub.jpg" >
-Overfull \hbox (49.89671pt too wide) in paragraph at lines 662--663
+Overfull \hbox (49.89671pt too wide) in paragraph at lines 580--581
  [][] 
  []
 
-[28] [29]
+[30]
 Chapitre 5.
-[30
+
+Underfull \hbox (badness 10000) in paragraph at lines 611--612
+
+ []
+
+[31
 
 ]
-File: ./graphics/Accueil.png Graphic file (type QTm)
- <use  "./graphics/Accueil.png" > [31]
+File: ./graphics/1.png Graphic file (type QTm)
+ <use  "./graphics/1.png" > [32]
 File: ./graphics/Menu.png Graphic file (type QTm)
- <use  "./graphics/Menu.png" >
-[32]
+ <use  "./graphics/Menu.png" > [33]
 File: ./graphics/Signup.png Graphic file (type QTm)
- <use  "./graphics/Signup.png" > [33]
+
+<use  "./graphics/Signup.png" > [34]
 File: ./graphics/Signin.png Graphic file (type QTm)
- <use  "./graphics/Signin.png" >
-[34]
+ <use  "./graphics/Signin.png" > [35]
 File: ./graphics/Date.png Graphic file (type QTm)
- <use  "./graphics/Date.png" > [35]
+
+<use  "./graphics/Date.png" > [36]
 File: ./graphics/Offres.png Graphic file (type QTm)
- <use  "./graphics/Offres.png" >
-[36]
+ <use  "./graphics/Offres.png" > [37]
 File: ./graphics/DetailsOffre.png Graphic file (type QTm)
- <use  "./graphics/DetailsOffre.png" > [37]
+
+<use  "./graphics/DetailsOffre.png" > [38]
 File: ./graphics/More.png Graphic file (type QTm)
  <use  "./graphics/More.png" >
-[38]
+[39]
 File: ./graphics/Reservations.png Graphic file (type QTm)
- <use  "./graphics/Reservations.png" > [39]
+ <use  "./graphics/Reservations.png" > [40]
 File: ./graphics/DetailsReservation.png Graphic file (type QTm)
 
-<use  "./graphics/DetailsReservation.png" >
-Overfull \hbox (2.16525pt too wide) in paragraph at lines 794--797
-[]\EU1/lmr/m/n/12 La 2[] phase du stage consiste à utiliser des APIs sur des ap
-plications ScreenDy. 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 794--797
-
- []
-
-File: ./graphics/fb.png Graphic file (type QTm)
-<use  "./graphics/fb.png" >
-File: ./graphics/instagram.png Graphic file (type QTm)
- <use  "./graphics/instagram.png" > [40] [41]
-Underfull \hbox (badness 10000) in paragraph at lines 823--833
+<use  "./graphics/DetailsReservation.png" > [41]
+Underfull \hbox (badness 10000) in paragraph at lines 729--737
 
  []
 
@@ -1483,19 +1509,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 823--833
 ] [43
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 847.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 847.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 751.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 751.
  (./rapport.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 847.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 847.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 847.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 751.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 751.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 751.
  ) 
 Here is how much of TeX's memory you used:
- 34164 strings out of 493638
- 638427 string characters out of 6146795
- 646897 words of memory out of 5000000
- 37098 multiletter control sequences out of 15000+600000
- 17482 words of font info for 53 fonts, out of 8000000 for 9000
+ 34181 strings out of 493638
+ 638509 string characters out of 6146797
+ 646924 words of memory out of 5000000
+ 37112 multiletter control sequences out of 15000+600000
+ 29531 words of font info for 68 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  55i,11n,54p,10347b,595s stack positions out of 5000i,500n,10000p,200000b,80000s
 
