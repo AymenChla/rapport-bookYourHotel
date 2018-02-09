@@ -2,51 +2,68 @@
 \BOOKMARK [0][-]{chapter*.2}{Résumé}{}% 2
 \BOOKMARK [0][-]{chapter*.3}{Abstract}{}% 3
 \BOOKMARK [0][-]{chapter*.6}{Introduction générale}{}% 4
-\BOOKMARK [0][-]{chapter.1}{Présentation de l'organisme}{}% 5
-\BOOKMARK [1][-]{section.1.1}{Mission}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.2}{Domaines d’intervention}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.3}{Mode\040de\040fonctionnement}{chapter.1}% 8
-\BOOKMARK [2][-]{subsection.1.3.1}{Membres\040du\040Conseil\040d'Administration}{section.1.3}% 9
-\BOOKMARK [2][-]{subsection.1.3.2}{L'entreprise\040cliente}{section.1.3}% 10
-\BOOKMARK [2][-]{subsection.1.3.3}{Présentation de l'entreprise}{section.1.3}% 11
-\BOOKMARK [2][-]{subsection.1.3.4}{Prix\040populaires}{section.1.3}% 12
-\BOOKMARK [0][-]{chapter.2}{Projet\040de\040stage}{}% 13
-\BOOKMARK [1][-]{section.2.1}{Problèmatique}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.2}{Objectif}{chapter.2}% 15
-\BOOKMARK [1][-]{section.2.3}{Parties\040prenantes}{chapter.2}% 16
-\BOOKMARK [1][-]{section.2.4}{Déscription de l'application}{chapter.2}% 17
-\BOOKMARK [1][-]{section.2.5}{Spécification des besoins fonctionnels}{chapter.2}% 18
-\BOOKMARK [1][-]{section.2.6}{Spécification des besoins non fonctionnels:}{chapter.2}% 19
-\BOOKMARK [1][-]{section.2.7}{Conclusion}{chapter.2}% 20
-\BOOKMARK [0][-]{chapter.3}{Conception\040fonctionnelle}{}% 21
-\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 22
-\BOOKMARK [1][-]{section.3.2}{Vue fonctionnelle du système}{chapter.3}% 23
-\BOOKMARK [2][-]{subsection.3.2.1}{Acteurs}{section.3.2}% 24
-\BOOKMARK [2][-]{subsection.3.2.2}{Diagramme\040de\040cas\040d'utilisation}{section.3.2}% 25
-\BOOKMARK [1][-]{section.3.3}{Prototype}{chapter.3}% 26
-\BOOKMARK [1][-]{section.3.4}{Vue Dynamique du système}{chapter.3}% 27
-\BOOKMARK [2][-]{subsection.3.4.1}{Diagramme de séquence:}{section.3.4}% 28
-\BOOKMARK [2][-]{subsection.3.4.2}{scénario de réservation de véhicule}{section.3.4}% 29
-\BOOKMARK [1][-]{section.3.5}{Modélisation conceptuelle et logique des données}{chapter.3}% 30
-\BOOKMARK [2][-]{subsection.3.5.1}{Modèle Conceptuel des Données}{section.3.5}% 31
-\BOOKMARK [2][-]{subsection.3.5.2}{Modèle Logique des Données}{section.3.5}% 32
-\BOOKMARK [1][-]{section.3.6}{Conclusion}{chapter.3}% 33
-\BOOKMARK [0][-]{chapter.4}{Conception\040technique}{}% 34
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 35
-\BOOKMARK [1][-]{section.4.2}{Plateforme\040ScreenDy}{chapter.4}% 36
-\BOOKMARK [2][-]{subsection.4.2.1}{Création des vues sur ScreenDy}{section.4.2}% 37
-\BOOKMARK [2][-]{subsection.4.2.2}{Ajout\040des\040fonctions\040Javascript}{section.4.2}% 38
-\BOOKMARK [2][-]{subsection.4.2.3}{Test\040de\040l'application}{section.4.2}% 39
-\BOOKMARK [1][-]{section.4.3}{Firebase}{chapter.4}% 40
-\BOOKMARK [1][-]{section.4.4}{REST\040API}{chapter.4}% 41
-\BOOKMARK [1][-]{section.4.5}{JSON}{chapter.4}% 42
-\BOOKMARK [1][-]{section.4.6}{Git\040et\040Github}{chapter.4}% 43
-\BOOKMARK [1][-]{section.4.7}{Conclusion}{chapter.4}% 44
-\BOOKMARK [0][-]{chapter.5}{Réalisation}{}% 45
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 46
-\BOOKMARK [1][-]{section.5.2}{Application mobile pour la réservation de véhicules}{chapter.5}% 47
-\BOOKMARK [2][-]{subsection.5.2.1}{Interfaces}{section.5.2}% 48
-\BOOKMARK [1][-]{section.5.3}{APIs}{chapter.5}% 49
-\BOOKMARK [1][-]{section.5.4}{Conclusion}{chapter.5}% 50
-\BOOKMARK [0][-]{chapter*.21}{Conclusion}{}% 51
-\BOOKMARK [0][-]{chapter*.22}{Webographie}{}% 52
+\BOOKMARK [0][-]{chapter.1}{Présentation du projet}{}% 5
+\BOOKMARK [1][-]{section.1.1}{Problèmatique}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.2}{Objectif}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.3}{Spécification des besoins fonctionnels}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.4}{Spécification des besoins non fonctionnels:}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.5}{Conclusion}{chapter.1}% 10
+\BOOKMARK [0][-]{chapter.2}{Analyse\040et\040conception}{}% 11
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.2}{Analyse}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.1}{Acteurs}{section.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.2}{Diagramme\040de\040cas\040d'utilisation}{section.2.2}% 15
+\BOOKMARK [1][-]{section.2.3}{Conception}{chapter.2}% 16
+\BOOKMARK [2][-]{subsection.2.3.1}{Diagramme de séquence:}{section.2.3}% 17
+\BOOKMARK [2][-]{subsection.2.3.2}{scénario de réservation d'hôtel}{section.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.3.3}{scénario de paiement en ligne}{section.2.3}% 19
+\BOOKMARK [2][-]{subsection.2.3.4}{Diagramme\040de\040classe}{section.2.3}% 20
+\BOOKMARK [1][-]{section.2.4}{Conclusion}{chapter.2}% 21
+\BOOKMARK [0][-]{chapter.3}{Maquettes}{}% 22
+\BOOKMARK [1][-]{section.3.1}{Authentification}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.2}{Création de compte}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.3}{Paramètre du compte}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.4}{Informations\040personnelles}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.5}{Mes réservations}{chapter.3}% 27
+\BOOKMARK [1][-]{section.3.6}{Recherche d'hôtel}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.7}{Hôtels disponibles}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.8}{Hébérgements}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.9}{Réservation}{chapter.3}% 31
+\BOOKMARK [1][-]{section.3.10}{Paiement}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.11}{Ajouter un hôtel}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.12}{Liste des hôtels}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.13}{Liste\040des\040clients}{chapter.3}% 35
+\BOOKMARK [0][-]{chapter.4}{Conception\040technique}{}% 36
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 37
+\BOOKMARK [1][-]{section.4.2}{Architecture\040technique}{chapter.4}% 38
+\BOOKMARK [1][-]{section.4.3}{Frameworks}{chapter.4}% 39
+\BOOKMARK [2][-]{subsection.4.3.1}{Spring}{section.4.3}% 40
+\BOOKMARK [2][-]{subsection.4.3.2}{Hibernate}{section.4.3}% 41
+\BOOKMARK [2][-]{subsection.4.3.3}{Bootstrap}{section.4.3}% 42
+\BOOKMARK [1][-]{section.4.4}{outils}{chapter.4}% 43
+\BOOKMARK [2][-]{subsection.4.4.1}{Maven}{section.4.4}% 44
+\BOOKMARK [2][-]{subsection.4.4.2}{MySQL}{section.4.4}% 45
+\BOOKMARK [2][-]{subsection.4.4.3}{Trello}{section.4.4}% 46
+\BOOKMARK [2][-]{subsection.4.4.4}{LaTeX}{section.4.4}% 47
+\BOOKMARK [2][-]{subsection.4.4.5}{Git\040et\040Github}{section.4.4}% 48
+\BOOKMARK [2][-]{subsection.4.4.6}{Google\040Map\040Api}{section.4.4}% 49
+\BOOKMARK [1][-]{section.4.5}{Conclusion}{chapter.4}% 50
+\BOOKMARK [0][-]{chapter.5}{Réalisation}{}% 51
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 52
+\BOOKMARK [1][-]{section.5.2}{Partie\040client}{chapter.5}% 53
+\BOOKMARK [2][-]{subsection.5.2.1}{Page\040d'accueil}{section.5.2}% 54
+\BOOKMARK [2][-]{subsection.5.2.2}{Hôtels disponibles}{section.5.2}% 55
+\BOOKMARK [2][-]{subsection.5.2.3}{Hébergements disponibles dans un hôtel}{section.5.2}% 56
+\BOOKMARK [2][-]{subsection.5.2.4}{Authentification et création de compte}{section.5.2}% 57
+\BOOKMARK [2][-]{subsection.5.2.5}{Réservation}{section.5.2}% 58
+\BOOKMARK [1][-]{section.5.3}{Partie gérant}{chapter.5}% 59
+\BOOKMARK [2][-]{subsection.5.3.1}{Modification des informations de l'hôtel}{section.5.3}% 60
+\BOOKMARK [2][-]{subsection.5.3.2}{Ajout d'un gérant}{section.5.3}% 61
+\BOOKMARK [2][-]{subsection.5.3.3}{Gestion\040des\040chambres}{section.5.3}% 62
+\BOOKMARK [2][-]{subsection.5.3.4}{Gestion\040des\040prix}{section.5.3}% 63
+\BOOKMARK [1][-]{section.5.4}{Partie\040administrateur}{chapter.5}% 64
+\BOOKMARK [2][-]{subsection.5.4.1}{Gestion des hôtels}{section.5.4}% 65
+\BOOKMARK [2][-]{subsection.5.4.2}{Ajout\040d'un\040administrateur}{section.5.4}% 66
+\BOOKMARK [1][-]{section.5.5}{Conclusion}{chapter.5}% 67
+\BOOKMARK [0][-]{chapter*.13}{Conclusion}{}% 68
+\BOOKMARK [0][-]{chapter*.14}{Webographie}{}% 69
